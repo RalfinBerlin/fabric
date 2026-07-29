@@ -105,5 +105,10 @@
       "pdf-to-markdown-core",
       "svelte-preprocess"
     ]
+  },
+  "allowScripts": {
+    "fsevents@2.3.3": true,
+    "github:jzillmann/pdf-to-markdown#5e930fafd305644cff00a3824030f0d6741acde8": true,
+    "svelte-preprocess@5.1.4": true
   }
 }

@@ -3,7 +3,8 @@ lockfileVersion: '9.0'
 settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
-
+allowBuilds:
+  pdf-to-markdown-core@https://codeload.github.com/jzillmann/pdf-to-markdown/tar.gz/5e930fafd305644cff00a3824030f0d6741acde8: true
 overrides:
   '@sveltejs/vite-plugin-svelte': ^4.0.0
   tunnel-agent@<0.6.0: '>=0.6.0'
@@ -24,6 +25,7 @@ overrides:
   glob@>=10.2.0 <10.5.0: '>=10.5.0'
   esbuild@<=0.24.2: '>=0.25.0'
   '@eslint/plugin-kit@<0.3.4': '>=0.3.4'
+
 
 importers:
 
